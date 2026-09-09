@@ -11,15 +11,15 @@ img {
 }
 
 body {
-	background-color: (250, 250, 250); 
-	color: (51,51,51); 
+	background-color: rgb(250, 250, 250); 
+	color: rgb(51,51,51); 
 	line-height: 140%; 
 	font-family: sans-serif;
 }
 
 h1 {
-	background-color: (153, 153, 166);
-	color: (51, 51, 51); /* Same as body background. */
+	background-color: rgb(153, 153, 166);
+	color: rgb(51, 51, 51); /* Same as body background. */
 	font-size: 2em;
 	padding: 1em .5em 2em; /* You want three values. */
 	font-weight: 800;
@@ -28,8 +28,8 @@ h1 {
 
 
 h2 {
-	background-color: 153, 153, 166;
-	color: (51, 51, 51);
+	background-color: rgb(153, 153, 166);
+	color: rgb(51, 51, 51);
 	font-size: 1.75em;
 	padding: 1em .5em 2em;
 	font-family: serif;
@@ -40,11 +40,11 @@ h3 {
 	margin: 1em .5em 2em; /*Three values again. You got the idea.*/
 	padding-top: .5em;
 	font-size: 1.5em;
-	color: 159, 59, 49;
+	color: rgb(159, 59, 49);
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: .1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: 2px solid (159, 59, 49);
+	border-top: 2px solid rgb(159, 59, 49);
 }
 
 h4 {
@@ -56,11 +56,11 @@ p.description {
 }
 
 p.price {
-	color: 159, 59, 49;
+	color: rgb(159, 59, 49);
 }
 
 ul {
-	margin: 0;
+	margin: 1em, 0.5em, 0.5em;
 }
 
 li { 
